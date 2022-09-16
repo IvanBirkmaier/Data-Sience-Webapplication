@@ -298,6 +298,9 @@ function stocklistForvisu(symbols,stocknames){
         x.setAttribute("id", symbols[i]);
         var t = document.createTextNode(stocknames[i]);
         x.appendChild(t);
+        var im = document.querySelector("img")
+        img.src = "https://logo.clearbit.com/"+stocknames[i]
+        console.log(im)
         document.getElementById("visustock").appendChild(x);
     }
     const select =  document.getElementById("visustock")

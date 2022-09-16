@@ -64,8 +64,10 @@
   text-decoration: none;
 }
 .home-link05 {
+  margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
+
 .home-cta-container {
   display: flex;
   align-items: center;
